@@ -1,6 +1,7 @@
 # sh-progressbar-redm
 
--- exports['sh-progressbar']:progressbar('TEXT', TIME, COLOR)
+-- exports['sh-progressbar']:progressbar('TEXT', TIME)
+-- exports['sh-progressbar']:progressbar('TEXT', TIME, COLOR) -- COLOR OPTIONAL
 
 -- RegisterCommand('progress', function()
 --     exports['sh-progressbar']:progressbar('TEXT', 5000, 'rgb(87, 196, 199)')
